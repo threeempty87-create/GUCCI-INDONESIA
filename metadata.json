@@ -1,0 +1,8 @@
+{
+  "name": "Gucci Indonesia Concept",
+  "description": "A luxury fashion e-commerce concept for Gucci Indonesia featuring an AI Personal Stylist powered by Gemini 2.5.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
