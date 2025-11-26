@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
 import TaskCard from './components/TaskCard';
 import ProductCard from './components/ProductCard';
 import ProductDetail from './components/ProductDetail';
@@ -339,7 +338,6 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-white text-brand-black font-sans selection:bg-brand-gold/30 selection:text-brand-black relative">
-      <Header />
       <main className="flex-grow">
         {renderContent()}
       </main>
